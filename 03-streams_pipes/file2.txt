@@ -1,0 +1,1 @@
+@Delaunay-I ➜ /workspaces/nodejs-tutorial/02-fs-module (master) $ node fs_es-version.js 
