@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./05-express/index.js"
+    "start": "nodemon ./06-express-routers/index.js"
     },
   "keywords": [],
   "author": "",

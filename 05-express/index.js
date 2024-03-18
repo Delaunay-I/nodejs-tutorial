@@ -28,7 +28,10 @@ app.get("/api/groceries", (req, res) => {
 });
 
 app.get("/api/groceries/:item", (req, res) => {
-  console.log(req.params.item);
+  // get the route parameter through destructuring
+  const { item } = req.params;
+  const fountItem = groceryList.find((q) => q.item === item)
+  res.send(fountItem)
 });
 
 // the callback in these functions are called request handler
