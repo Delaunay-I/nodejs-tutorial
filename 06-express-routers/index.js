@@ -1,10 +1,13 @@
 const express = require("express");
+const cookieParser = require('cookie-parser');
+
 const groceriesRoute = require("./routes/groceries");
 const marketRoute = require("./routes/markets");
 
 const app = express();
 const PORT = 3001;
 
+app.use(cookieParser())
 app.use(express.json());
 
 // pass the router after the other middlewares
